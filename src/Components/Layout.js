@@ -14,7 +14,7 @@ function Layout({ children }) {
     <>
       <TopNavBanner />
       <SecondNav/>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <main>{children}</main>
       {/* {!pathName.includes("admin") && (
         <Footers></Footers>

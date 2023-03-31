@@ -20,7 +20,7 @@ const SidebarMenu = () => {
                 <h1>Categories</h1>
             </div>
             <div>
-                <ul id="catagory-menu">
+                <ul id="catagory-menu" >
                     {categories.map((category) => {
                         return (
                             <li key={category._id}>

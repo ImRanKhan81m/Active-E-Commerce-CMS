@@ -16,7 +16,7 @@
 }
 
 .mid-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -67,6 +67,9 @@ p {
   padding: 7px 9px;
   background: white;
   margin: 2px 0;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+  cursor: pointer;
   /* font-weight: bold; */
 }
 
@@ -75,7 +78,8 @@ p {
 }
 
 #catagory-menu li a:hover {
-  color: #10b981;
+  color: #ff3300;
+  transition: .3s;
 }
 
 #catagory-menu li ul {
@@ -93,33 +97,15 @@ p {
 
 #catagory-menu li ul li a {
   display: block;
-  padding: 5px 30px;
+  padding: 5px 40px;
   /* background: gray; */
-  margin: 2px 0;
-  font-weight: bold;
+  margin:  0;
+  font-weight: semibold;
 }
 
-/* Newsletter */
-.newsletter-bg::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background: #f6f8ff;
-  z-index: -1;
-}
 
-/* terms & conditions */
-.terms-img {
-  background-image: url("https://kachabazar-store.vercel.app/page-header-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 200px;
-  width: 100%;
-}
+
+
 
 .term-text {
   position: absolute;
@@ -150,70 +136,7 @@ p {
   display: block;
 }
 
-/* ------------bottom user right drawer------------------------- */
-.user-drawer {
-  width: 400px !important;
-}
 
-.jodit-status-bar {
-  visibility: hidden;
-}
-
-@media only screen and (max-width: 600px) {
-  .cart-drawer {
-    width: 100% !important;
-  }
-
-  /* ------------bottom user right drawer------------------------- */
-  .user-drawer {
-    width: 60% !important;
-  }
-}
-
-
-/* login page design */
-.login-bg {
-  background-color: #10b981;
-  border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% !important;
-}
-
-.footer-sec {
-  background: url("https://drone-shop-react.netlify.app/bg3.webp");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.footer-list,
-.social-list>li:last-child {
-  margin-bottom: 0;
-}
-
-.footer-list>li {
-  list-style: circle;
-  margin-left: 15px;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-.social-list>li {
-  margin-left: 15px;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-/* image img{
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-} */
-
-iframe {
-  max-width: 100%;
-}
 
 
 

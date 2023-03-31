@@ -34,6 +34,7 @@ const Navbar = () => {
               </ul>
             </div>
 
+
             <div className=" md:w-[40%] mx-auto">
               <Link href='/' className="flex justify-center items-center gap-2">
                 <Image
@@ -52,7 +53,7 @@ const Navbar = () => {
               <input type="search" placeholder="Type here" className="input input-bordered w-full " />
             </div>
 
-            <div className='w-[40%]  justify-end md:block hidden'>
+            <div className='w-[25%]   justify-end md:block hidden'>
               <div className=" flex gap-5">
                 <Link href='/'>
                   <div className="flex items-center gap-1">

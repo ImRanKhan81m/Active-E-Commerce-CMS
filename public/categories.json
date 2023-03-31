@@ -1,0 +1,186 @@
+[
+  {
+  "_id": {
+    "$oid": "6426fde2369fc2a44210e377"
+  },
+  "parentCategory": "Mens's",
+  "childCategory": [
+    "Jeans",
+    "Shirt",
+    "Panjhabi",
+    "Coat"
+  ],
+  "productType": "Cloths",
+  "imageURLs": [
+    "https://i.ibb.co/wWzP7qS/Rectangle-40.png"
+  ],
+  "status": "true"
+},{
+  "_id": {
+    "$oid": "6426fdfe369fc2a44210e379"
+  },
+  "parentCategory": "Women's",
+  "childCategory": [
+    "Sharri",
+    "Lehenga",
+    "3pcs",
+    "Borka"
+  ],
+  "productType": "Cloths",
+  "imageURLs": [
+    "https://i.ibb.co/zNRZNdV/Rectangle-40-1.png"
+  ],
+  "status": "true"
+},{
+  "_id": {
+    "$oid": "6426ff5e369fc2a44210e391"
+  },
+  "parentCategory": "Computer",
+  "childCategory": [
+    "Ram",
+    "Processor",
+    "Hard-Disk",
+    "Camera",
+    "Mouse"
+  ],
+  "productType": "Electronics",
+  "imageURLs": [
+    "https://i.ibb.co/dbVMhz9/Rectangle-40-2.png"
+  ],
+  "status": "true"
+},
+  {
+  "_id": {
+    "$oid": "6426fde2369fc2a44210e377"
+  },
+  "parentCategory": "Mens's",
+  "childCategory": [
+    "Jeans",
+    "Shirt",
+    "Panjhabi",
+    "Coat"
+  ],
+  "productType": "Cloths",
+  "imageURLs": [
+    "https://i.ibb.co/4m1WmGd/Rectangle-40-3.png"
+  ],
+  "status": "true"
+},{
+  "_id": {
+    "$oid": "6426fdfe369fc2a44210e379"
+  },
+  "parentCategory": "Women's",
+  "childCategory": [
+    "Sharri",
+    "Lehenga",
+    "3pcs",
+    "Borka"
+  ],
+  "productType": "Cloths",
+  "imageURLs": [
+    "https://i.ibb.co/ss1Tb6D/Rectangle-40-4.png"
+  ],
+  "status": "true"
+},{
+  "_id": {
+    "$oid": "6426ff5e369fc2a44210e391"
+  },
+  "parentCategory": "Computer",
+  "childCategory": [
+    "Ram",
+    "Processor",
+    "Hard-Disk",
+    "Camera",
+    "Mouse"
+  ],
+  "productType": "Electronics",
+  "imageURLs": [
+    "https://i.ibb.co/SVWhRJj/Rectangle-40-5.png"
+  ],
+  "status": "true"
+},
+  {
+  "_id": {
+    "$oid": "6426fde2369fc2a44210e377"
+  },
+  "parentCategory": "Mens's",
+  "childCategory": [
+    "Jeans",
+    "Shirt",
+    "Panjhabi",
+    "Coat"
+  ],
+  "productType": "Cloths",
+  "imageURLs": [
+    "https://i.ibb.co/m0jxqBc/Rectangle-40-6.png"
+  ],
+  "status": "true"
+},{
+  "_id": {
+    "$oid": "6426fdfe369fc2a44210e379"
+  },
+  "parentCategory": "Women's",
+  "childCategory": [
+    "Sharri",
+    "Lehenga",
+    "3pcs",
+    "Borka"
+  ],
+  "productType": "Cloths",
+  "imageURLs": [
+    "https://i.ibb.co/dbVMhz9/Rectangle-40-2.png"
+  ],
+  "status": "true"
+},{
+  "_id": {
+    "$oid": "6426ff5e369fc2a44210e391"
+  },
+  "parentCategory": "Computer",
+  "childCategory": [
+    "Ram",
+    "Processor",
+    "Hard-Disk",
+    "Camera",
+    "Mouse"
+  ],
+  "productType": "Electronics",
+  "imageURLs": [
+    "https://i.ibb.co/m0jxqBc/Rectangle-40-6.png"
+  ],
+  "status": "true"
+},{
+  "_id": {
+    "$oid": "6426ff5e369fc2a44210e391"
+  },
+  "parentCategory": "Computer",
+  "childCategory": [
+    "Ram",
+    "Processor",
+    "Hard-Disk",
+    "Camera",
+    "Mouse"
+  ],
+  "productType": "Electronics",
+  "imageURLs": [
+    "https://i.ibb.co/SVWhRJj/Rectangle-40-5.png"
+  ],
+  "status": "true"
+},{
+  "_id": {
+    "$oid": "6426ff5e369fc2a44210e391"
+  },
+  "parentCategory": "Computer",
+  "childCategory": [
+    "Ram",
+    "Processor",
+    "Hard-Disk",
+    "Camera",
+    "Mouse"
+  ],
+  "productType": "Electronics",
+  "imageURLs": [
+    "https://i.ibb.co/SVWhRJj/Rectangle-40-5.png"
+  ],
+  "status": "true"
+}
+]

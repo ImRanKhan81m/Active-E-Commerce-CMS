@@ -1,168 +1,37 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useContext } from "react";
-import img from "../../../assets/image 31.png";
 import CreateContext from "../../CreateContex";
+import SidebarMenu from "./SidebarMenu";
+import SliderInHeader from "./SliderInHeader";
+import ProductsRight from "./ProductsRight";
+import img1 from '../../../assets/banner/banner2.png'
+import img2 from '../../../assets/banner/banner3.png'
+import img3 from '../../../assets/banner/banner4.png'
 
 const Banner = () => {
-  const router = useRouter()
-
-  const {
-    blogs
-  } = useContext(CreateContext);
-
-  //   const handleDetailsPage = () => {
-  //     router.push(`/blog-details/${blog?.path}`)
-  // }
-
 
   return (
     <section className="mid-container">
-      <div className="md:flex  gap-6">
-        <div className="md:w-[60%] md:order-2 order-1">
-          <div className="mb-5">
-            {blogs?.slice(3, 4).map((blog) => {
-              return (
-                <div
-                  onClick={() => router.push(`/blog-details/${blog?.path}`)}
-                  key={blog?._id}
-                  className="cursor-pointer">
-                  <Image
-                    src={blog?.image}
-                    alt={blog?.image}
-                    width={600}
-                    height={600}
-                    className="w-full object-cover"
-                  ></Image>
-                  <h1 className="text-xl font-bold text-center mt-3">
-                    {blog?.title}
-                  </h1>
-                  <p className=" text-center text-sm">
-                    By-{" "}
-                    <span className="font-bold">
-                      {blog?.authorName}
-                    </span>
-                  </p>
-                  <p className=" text-center px-3 mt-4">
-                    {/* By-{ blogs?.desc.slice(0, 200)} */}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
+      <div className="flex gap-3">
+        <div className="lg:w-[25%] lg:block hidden bg-white mt-4 ">
+          <SidebarMenu />
         </div>
-        <div className="md:w-[30%] md:order-1 ">
-          <div className="mb-5">
-            {blogs?.slice(0, 1).map((blog) => {
-              return (
-                <div
-                  onClick={() => router.push(`/blog-details/${blog?.path}`)}
-                  key={blog?._id}
-                  className="cursor-pointer">
-                  <Image
-                    src={blog?.image}
-                    alt={blog?.image}
-                    width={600}
-                    height={600}
-                    className="w-full object-cover"
-                  ></Image>
-                  <h1 className="text-xl font-bold text-center mt-3">
-                    {blog?.title}
-                  </h1>
-                  <p className="   text-center text-sm">
-                    By-{" "}
-                    <span className="font-bold">
-                      {blog?.authorName}
-                    </span>
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-          <div>
-            {blogs.slice(1, 2).map((blog) => {
-              return (
-                <div
-                  onClick={() => router.push(`/blog-details/${blog?.path}`)}
-                  key={blog?._id}
-                  className="cursor-pointer">
-                  <Image
-                    src={blog?.image}
-                    alt={blog?.image}
-                    width={600}
-                    height={600}
-                    className="w-full object-cover"
-                  ></Image>
-                  <h1 className="text-xl font-bold text-center mt-3">
-                    {blog?.title}
-                  </h1>
-                  <p className="   text-center text-sm">
-                    By-{" "}
-                    <span className="font-bold">
-                      {blog?.authorName}
-                    </span>
-                  </p>
-                </div>
-              );
-            })}
-          </div>
+        {/* -----------------------------slider */}
+        <div className="lg:w-[60%] w-full mt-4 ">
+          <SliderInHeader />
         </div>
+        <div className="lg:w-[15%] lg:block hidden mt-4 space-y-3 ">
+          <ProductsRight />
+        </div>
+      </div>
 
-        <div className="md:w-[30%] md:order-3 ">
-          <div className="mb-5">
-            {blogs.slice(5, 6).map((blog) => {
-              return (
-                <div 
-                onClick={() => router.push(`/blog-details/${blog?.path}`)}
-                key={blog?._id}
-                className="cursor-pointer">
-                  <Image
-                    src={blog?.image}
-                    alt={blog?.image}
-                    width={600}
-                    height={600}
-                    className="w-full object-cover"
-                  ></Image>
-                  <h1 className="text-xl font-bold text-center mt-3">
-                    {blog?.title}
-                  </h1>
-                  <p className="   text-center text-sm">
-                    By-{" "}
-                    <span className="font-bold">
-                      {blog?.authorName}
-                    </span>
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-          <div>
-            {blogs.slice(7, 8).map((blog) => {
-              return (
-                <div 
-                onClick={() => router.push(`/blog-details/${blog?.path}`)}
-                key={blog?._id}
-                className="cursor-pointer">
-                  <Image
-                    src={blog?.image}
-                    alt={blog?.image}
-                    width={600}
-                    height={600}
-                    className="w-full object-cover"
-                  ></Image>
-                  <h1 className="text-xl font-bold text-center mt-3">
-                    {blog?.title}
-                  </h1>
-                  <p className="   text-center text-sm">
-                    By-{" "}
-                    <span className="font-bold">
-                      {blog?.authorName}
-                    </span>
-                  </p>
-                </div>
-              );
-            })}
-          </div>
+      <div className="grid grid-cols-3 gap-10 mt-5 ">
+        <div> <Image src={img1} alt="img1" width={1200} height={300} />
+        </div>
+        <div> <Image src={img2} alt="img1" width={1200} height={300} />
+        </div>
+        <div> <Image src={img3} alt="img1" width={1200} height={300} />
         </div>
       </div>
     </section>

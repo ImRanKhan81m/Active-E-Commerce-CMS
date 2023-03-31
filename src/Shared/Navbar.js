@@ -59,7 +59,7 @@ const Navbar = () => {
                     <BiGitCompare className="text-2xl" />
                     <div>
                       <div className="bg-primary  text-white rounded-full flex justify-center items-center w-6 h-6 text-xs">
-                        <p className="p-1">10</p>
+                        <p className="p-1">1</p>
                       </div>
                       <p className="p-0 text-xs font-medium">Compare</p>
                     </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
                     <GrFavorite className="text-2xl" />
                     <div>
                       <div className="bg-primary  text-white rounded-full flex justify-center items-center w-6 h-6 text-xs">
-                        <p className="p-1">10</p>
+                        <p className="p-1">5</p>
                       </div>
                       <p className="p-0 text-xs font-medium">Wishlist</p>
                     </div>
@@ -81,9 +81,9 @@ const Navbar = () => {
                     <FiShoppingCart className="text-2xl" />
                     <div>
                       <div className="bg-primary  text-white rounded-full flex justify-center items-center w-6 h-6 text-xs">
-                        <p className="p-1">10</p>
+                        <p className="p-1">2</p>
                       </div>
-                      <p className="p-0 text-xs font-medium">Compare</p>
+                      <p className="p-0 text-xs font-medium">Cart</p>
                     </div>
                   </div>
                 </Link>

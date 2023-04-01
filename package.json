@@ -41,7 +41,7 @@
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
     "sweetalert": "^2.1.2",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

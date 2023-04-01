@@ -5,6 +5,7 @@ import SecondNav from "../Shared/2ndNavbar";
 import Footers from "../Shared/Footers";
 import Navbar from "../Shared/Navbar";
 import TopNavBanner from "../Shared/TopNavBanner";
+import MenuNav from "../Shared/MenuNav";
 
 function Layout({ children }) {
   const router = useRouter();
@@ -14,7 +15,8 @@ function Layout({ children }) {
     <>
       <TopNavBanner />
       <SecondNav/>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
+      <MenuNav/>
       <main>{children}</main>
       {/* {!pathName.includes("admin") && (
         <Footers></Footers>

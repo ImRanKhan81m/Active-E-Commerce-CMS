@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Banner from "../src/Components/Home/Banner/Banner";
+import ProductSection from "../src/Components/Home/ProductSection/ProductSection";
 
 export default function Home() {
 
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner/>
+      <ProductSection/>
       {/* <FeatureBlog/>
       <Contact/> */}
     </>

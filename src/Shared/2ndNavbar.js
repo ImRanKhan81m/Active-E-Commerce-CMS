@@ -7,7 +7,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 const SecondNav = () => {
     const { pathname } = useRouter();
     return (
-        <div className=' sticky top-0 z-50 bg-base-100 border-b-[1px]'>
+        <div className=' bg-base-100 border-b-[1px]'>
             <div className='mid-container '>
                 <div className="flex items-center justify-between bg-base-100 px-0 py-2">
 

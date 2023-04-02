@@ -4,6 +4,7 @@ import NewProduct from './NewProduct';
 import FeaturedProducts from './FeaturedProducts';
 import BestSelling from './BestSelling';
 import ProductAd from '../ProductAd/ProductAd';
+import BestSellers from './BestSellers';
 
 const ProductSection = () => {
     return (
@@ -16,6 +17,7 @@ const ProductSection = () => {
             <FeaturedProducts/>
             <BestSelling/>
             <ProductAd/>
+            <BestSellers/>
         </div>
     );
 };

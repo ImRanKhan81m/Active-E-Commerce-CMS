@@ -18,9 +18,9 @@ const BestSellers = () => {
                     <button className='bg-primary sm:px-3 px-2 py-2 sm:text-sm text-xs rounded text-white'>View More</button>
                 </div>
             </div>
-            <div className='mt-1 p-3 bg-white grid md:grid-cols-3 gap-5'>
+            <div className='mt-1 p-3 bg-white grid sm:grid-cols-3 grid-cols-2 gap-5'>
                 <div className='md:flex items-center gap-5 border rounded overflow-hidden '>
-                    <div className='w-[40%]'>
+                    <div className='md:w-[40%]'>
                         <Image
                             src={img1}
                             alt='img1'
@@ -29,7 +29,7 @@ const BestSellers = () => {
                             className='w-full '
                         />
                     </div>
-                    <div className='w-[60%] lg:space-y-3 sm:space-y-2 space-y-1 p-2'>
+                    <div className='md:w-[60%] lg:space-y-3 sm:space-y-2 space-y-1 p-2'>
                         <h1 className='md:text-md text-sm'>Lavish Look</h1>
                         <div className='  flex text-sm'>
                             <AiFillStar className='text-warning' />
@@ -41,8 +41,8 @@ const BestSellers = () => {
                         <span className='bg-secondary px-2 py-2 text-primary rounded text-xs cursor-pointer flex items-center gap-1 w-[91px] font-semibold'>Visit Store <AiOutlineRight className='mt-1'/></span>
                     </div>
                 </div>
-                <div className='flex items-center gap-5 border rounded overflow-hidden '>
-                    <div className='w-[40%]'>
+                <div className='md:flex items-center gap-5 border rounded overflow-hidden '>
+                    <div className='md:w-[40%]'>
                         <Image
                             src={img2}
                             alt='img1'
@@ -51,9 +51,9 @@ const BestSellers = () => {
                             className='w-full '
                         />
                     </div>
-                    <div className='w-[60%]'>
-                        <h1>Lavish Look</h1>
-                        <div className=' flex text-sm'>
+                    <div className='md:w-[60%] lg:space-y-3 sm:space-y-2 space-y-1 p-2'>
+                        <h1 className='md:text-md text-sm'>Lavish Look</h1>
+                        <div className='  flex text-sm'>
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
@@ -63,8 +63,8 @@ const BestSellers = () => {
                         <span className='bg-secondary px-2 py-2 text-primary rounded text-xs cursor-pointer flex items-center gap-1 w-[91px] font-semibold'>Visit Store <AiOutlineRight className='mt-1'/></span>
                     </div>
                 </div>
-                <div className='flex items-center gap-5 border rounded overflow-hidden '>
-                    <div className='w-[40%]'>
+                <div className='md:flex items-center gap-5 border rounded overflow-hidden '>
+                    <div className='md:w-[40%]'>
                         <Image
                             src={img3}
                             alt='img1'
@@ -73,9 +73,9 @@ const BestSellers = () => {
                             className='w-full '
                         />
                     </div>
-                    <div className='w-[60%]'>
-                        <h1>Lavish Look</h1>
-                        <div className=' flex text-sm'>
+                    <div className='md:w-[60%] lg:space-y-3 sm:space-y-2 space-y-1 p-2'>
+                        <h1 className='md:text-md text-sm'>Lavish Look</h1>
+                        <div className='  flex text-sm'>
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
@@ -85,8 +85,8 @@ const BestSellers = () => {
                         <span className='bg-secondary px-2 py-2 text-primary rounded text-xs cursor-pointer flex items-center gap-1 w-[91px] font-semibold'>Visit Store <AiOutlineRight className='mt-1'/></span>
                     </div>
                 </div>
-                <div className='flex items-center gap-5 border rounded overflow-hidden '>
-                    <div className='w-[40%]'>
+                <div className='md:flex items-center gap-5 border rounded overflow-hidden '>
+                    <div className='md:w-[40%]'>
                         <Image
                             src={img4}
                             alt='img1'
@@ -95,9 +95,9 @@ const BestSellers = () => {
                             className='w-full '
                         />
                     </div>
-                    <div className='w-[60%]'>
-                        <h1>Lavish Look</h1>
-                        <div className='flex text-sm'>
+                    <div className='md:w-[60%] lg:space-y-3 sm:space-y-2 space-y-1 p-2'>
+                        <h1 className='md:text-md text-sm'>Lavish Look</h1>
+                        <div className='  flex text-sm'>
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
@@ -107,8 +107,8 @@ const BestSellers = () => {
                         <span className='bg-secondary px-2 py-2 text-primary rounded text-xs cursor-pointer flex items-center gap-1 w-[91px] font-semibold'>Visit Store <AiOutlineRight className='mt-1'/></span>
                     </div>
                 </div>
-                <div className='flex items-center gap-5 border rounded overflow-hidden '>
-                    <div className='w-[40%]'>
+                <div className='md:flex items-center gap-5 border rounded overflow-hidden '>
+                    <div className='md:w-[40%]'>
                         <Image
                             src={img5}
                             alt='img1'
@@ -117,9 +117,9 @@ const BestSellers = () => {
                             className='w-full '
                         />
                     </div>
-                    <div className='w-[60%]'>
-                        <h1>Lavish Look</h1>
-                        <div className='flex text-sm'>
+                    <div className='md:w-[60%] lg:space-y-3 sm:space-y-2 space-y-1 p-2'>
+                        <h1 className='md:text-md text-sm'>Lavish Look</h1>
+                        <div className='  flex text-sm'>
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
@@ -129,8 +129,8 @@ const BestSellers = () => {
                         <span className='bg-secondary px-2 py-2 text-primary rounded text-xs cursor-pointer flex items-center gap-1 w-[91px] font-semibold'>Visit Store <AiOutlineRight className='mt-1'/></span>
                     </div>
                 </div>
-                <div className='flex items-center gap-5 border rounded overflow-hidden '>
-                    <div className='w-[40%]'>
+                <div className='md:flex items-center gap-5 border rounded overflow-hidden '>
+                    <div className='md:w-[40%]'>
                         <Image
                             src={img6}
                             alt='img1'
@@ -139,9 +139,9 @@ const BestSellers = () => {
                             className='w-full '
                         />
                     </div>
-                    <div className='w-[60%]'>
-                        <h1>Lavish Look</h1>
-                        <div className='flex text-sm'>
+                    <div className='md:w-[60%] lg:space-y-3 sm:space-y-2 space-y-1 p-2'>
+                        <h1 className='md:text-md text-sm'>Lavish Look</h1>
+                        <div className='  flex text-sm'>
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />
                             <AiFillStar className='text-warning' />

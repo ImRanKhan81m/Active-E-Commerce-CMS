@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="navbar justify-between gap-10 bg-base-100 px-0 py-0">
 
 
-            <div className="dropdown  sm:hidden">
+            <div className="dropdown  sm:hidden block">
               <label tabIndex={0} className="btn btn-ghost">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </label>
@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
 
 
-            <div className=" md:w-[40%] mx-auto">
+            <div className="w-[30%] mx-auto">
               <Link href='/' className="flex justify-center items-center gap-2">
                 <Image
                   src={logo}
@@ -49,11 +49,11 @@ const Navbar = () => {
 
             </div>
 
-            <div className="w-[70%]  justify-center md:block hidden">
+            <div className="w-[50%]  justify-center md:block hidden">
               <input type="search" placeholder="Type here" className="input input-bordered w-full " />
             </div>
 
-            <div className='w-[25%]   justify-end md:block hidden'>
+            <div className='   justify-end md:block hidden'>
               <div className=" flex gap-5">
                 <Link href='/'>
                   <div className="flex items-center gap-1">

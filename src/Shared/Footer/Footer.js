@@ -137,7 +137,7 @@ const Footer = () => {
                     </div>
                     <p className="mt-24 text-md text-center">
                         <Link className="text-bold" href="/">
-                        @Active eCommerce CMS  © {Date().slice(11, 15)}.
+                            @Active eCommerce CMS  © {Date().slice(11, 15)}.
                         </Link>
                     </p>
                 </div>

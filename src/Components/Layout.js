@@ -6,6 +6,7 @@ import Footers from "../Shared/Footers";
 import Navbar from "../Shared/Navbar";
 import TopNavBanner from "../Shared/TopNavBanner";
 import MenuNav from "../Shared/MenuNav";
+import Footer from "../Shared/Footer/Footer";
 
 function Layout({ children }) {
   const router = useRouter();
@@ -21,6 +22,7 @@ function Layout({ children }) {
       {/* {!pathName.includes("admin") && (
         <Footers></Footers>
       )} */}
+      <Footer/>
       <Toaster />
     </>
   );

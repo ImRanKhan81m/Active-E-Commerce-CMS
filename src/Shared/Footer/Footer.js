@@ -74,6 +74,7 @@ const Footer = () => {
                                         </a>
                                     </nav>
                                 </div>
+                                
                                 <div>
                                     <p className="font-medium footer-heading">Usefull Links</p>
                                     <nav className="flex flex-col mt-4 space-y-4 text-sm">

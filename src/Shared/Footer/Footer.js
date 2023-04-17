@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Footer = () => {
+    
     return (
         <div className=" bg-[#111723] text-[#A7A9AC]">
             <footer className="mid-container ">

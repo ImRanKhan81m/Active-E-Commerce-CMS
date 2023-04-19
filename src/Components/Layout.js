@@ -12,6 +12,7 @@ function Layout({ children }) {
   const router = useRouter();
   const pathName = router.pathname;
 
+  
   return (
     <>
       <TopNavBanner />

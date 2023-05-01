@@ -67,7 +67,7 @@ const SliderInHeader = () => {
                 <Swiper
                     effect={"coverflow"}
                     spaceBetween={15}
-                    grabCursor={true}
+                    // grabCursor={true}
                     pagination={{
                         clickable: true,
                         dynamicBullets: true,

@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <Banner />
       <ProductSection />
-      <div className="grid sm:grid-cols-2 gap-5 mid-container">
+      <div className="grid sm:grid-cols-2 gap-5 mid-container mx-auto px-5 ">
         <CategorySec />
         <BrandSec />
       </div>

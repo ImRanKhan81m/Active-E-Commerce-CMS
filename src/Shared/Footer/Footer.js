@@ -9,7 +9,7 @@ const Footer = () => {
     
     return (
         <div className=" bg-[#111723] text-[#A7A9AC]">
-            <footer className="mid-container ">
+            <footer className="mid-container mx-auto px-5  ">
                 <div className="container px-4 pt-20 pb-5 mx-auto sm:px-6 lg:px-8">
                     <div className="flex gap-5">
                         <div className='md:w-[40%]'>

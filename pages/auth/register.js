@@ -85,7 +85,7 @@ const Register = () => {
   }
 
   return (
-    <div className="mid-container">
+    <div className="mid-container mx-auto px-5 ">
       <div className="flex justify-center items-center mt-5 mb-32">
         <div className="card flex-shrink-0 shadow-2xl bg-base-100  sm:w-[600px] w-full">
           <div className="card-body w-full">

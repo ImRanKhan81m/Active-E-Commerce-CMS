@@ -7,7 +7,7 @@ import Link from 'next/link';
 const TopNav = () => {
     return (
         <div className='border-b '>
-            <div className='mid-container top_nav_pd hidden md:block'>
+            <div className='mid-container mx-auto px-5  top_nav_pd hidden md:block'>
                 <div className='logo flex items-center justify-between'>
                     <div className='cursor-pointer'>
                         <Link href="/">

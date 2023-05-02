@@ -35,7 +35,7 @@ const Footers = () => {
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
       </Head>
       <div className="bg-accent border-t">
-        <div className="mid-container">
+        <div className="mid-container mx-auto px-5 ">
           <footer className="footer md:px-10 py-10 pb-20 ">
             <div className="space-y-3">
               <span className="text-xl font-semibold">Quick Links</span>

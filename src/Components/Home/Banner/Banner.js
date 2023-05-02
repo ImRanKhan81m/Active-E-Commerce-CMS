@@ -12,7 +12,7 @@ import img3 from '../../../assets/banner/banner4.png'
 const Banner = () => {
 
   return (
-    <section className="mid-container">
+    <section className="mid-container mx-auto px-5 ">
       <div className="flex gap-3">
         <div className="lg:w-[25%] lg:block hidden bg-white mt-4 ">
           <SidebarMenu />

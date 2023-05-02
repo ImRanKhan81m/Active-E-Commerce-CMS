@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Subscribe = () => {
     return (
         <div className='bg-accent sm:pb-2 pb-10'>
-            <div className='mid-container' id='subscribe'>
+            <div className='mid-container mx-auto px-5 ' id='subscribe'>
                 <div className='grid md:grid-cols-2 gap-10 items-center py-5 md:py-0'>
                     <div>
                         <h2 className='text-2xl font-semibold'>Subscribe to Updates</h2>

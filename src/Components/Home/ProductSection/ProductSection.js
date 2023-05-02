@@ -8,7 +8,7 @@ import BestSellers from './BestSellers';
 
 const ProductSection = () => {
     return (
-        <div className='mid-container'>
+        <div className='mid-container mx-auto px-5 '>
             <FlashSale/>
             <NewProduct/>
             <FeaturedProducts/>

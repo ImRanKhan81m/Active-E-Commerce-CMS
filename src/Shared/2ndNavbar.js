@@ -8,7 +8,7 @@ const SecondNav = () => {
     const { pathname } = useRouter();
     return (
         <div className=' bg-base-100 border-b-[1px]'>
-            <div className='mid-container '>
+            <div className='mid-container mx-auto px-5  '>
                 <div className="flex items-center justify-between bg-base-100 px-0 py-2">
 
                     <div className="sm:text-sm text-xs flex gap-5">

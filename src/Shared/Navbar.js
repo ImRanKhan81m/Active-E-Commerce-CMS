@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <div className='shadow-sm sticky top-0 z-40 bg-base-100'>
-        <div className='mid-container '>
+        <div className='mid-container mx-auto px-5  '>
           <div className="navbar justify-between gap-10 bg-base-100 px-0 py-0">
 
 

@@ -4,7 +4,7 @@ import styles from "../styles/notFound.module.css";
 
 const NotFound = () => {
   return (
-    <div className={`"mid-container" + ${styles.myErrorPge}`}>
+    <div className={`"mid-container mx-auto px-5 " + ${styles.myErrorPge}`}>
       <section className={`${styles.page_404} + "h-[100vh] flex items-center"`}>
         <div className="container -mt-32">
           <div className="row">

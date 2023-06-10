@@ -9,9 +9,6 @@
     "start": "next start -p 9000",
     "lint": "next lint"
   },
-  "engines": {
-    "eslint": "^7.0.0"
-  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
@@ -46,8 +43,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "eslint": "^8.42.0",
-    "eslint-config-next": "^13.4.4",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4"
   }

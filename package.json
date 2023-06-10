@@ -9,6 +9,9 @@
     "start": "next start -p 9000",
     "lint": "next lint"
   },
+  "engines": {
+    "eslint": "^7.0.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",

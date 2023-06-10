@@ -278,7 +278,7 @@ const ProductDetails = () => {
                                         height={600}
                                         className='mx-auto py-5'
                                     />
-                                    )
+                                )
                             }
                             {
                                 showReview && !showDescription && !showVideo && (
@@ -294,6 +294,20 @@ const ProductDetails = () => {
                                 <ProductCard />
                                 <ProductCard />
                                 <ProductCard />
+                            </div>
+                        </div>
+
+                        <div className='bg-base-100 rounded mt-3'>
+                            <h1 className='border-b p-3 font-semibold'>Product Queries (0)</h1>
+                            <div className='p-3'>
+                                <textarea className='h-24 border w-full focus:outline-none p-3 mb-5' placeholder='Write your question here...'></textarea>
+
+                                <span className='bg-primary text-white px-4 py-2 text-sm cursor-pointer rounded '>
+                                    Submit
+                                </span>
+
+                                <h1 className='font-semibold mt-5 border-b pb-2'>Other Questions</h1>
+                                <p className='text-xs text-neutral pb-5 mt-2'>No none asked to seller yet</p>
                             </div>
                         </div>
                     </div>
